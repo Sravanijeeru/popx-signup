@@ -1,16 +1,53 @@
-# React + Vite
+# PopX Signup Form (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a pixel-perfect implementation of the given Adobe XD design using React JS and Vite.  
+The project includes form validation, routing, and local storage handling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
+https://your-live-link-here.netlify.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
+https://github.com/your-username/popx-signup
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React JS
+- Vite
+- React Router DOM
+- JavaScript (ES6)
+- CSS
+
+---
+
+## ✨ Features
+
+- Pixel-perfect UI based on Adobe XD design
+- Responsive mobile-centered layout
+- Form validation for all fields:
+  - Name validation
+  - Phone number (10 digits only)
+  - Email format validation
+  - Password minimum length check
+- Error messages displayed under each field
+- Radio button selection (Agency Yes/No)
+- Navigation to Profile page after successful submission
+- Data stored in Local Storage
+
+---
+
+## 📸 Screens
+
+(Add screenshots here if possible)
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+npm install
+npm run dev
